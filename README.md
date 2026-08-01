@@ -3,11 +3,13 @@
 > **Developed by jb with fixs** — *Speed • Security • Trust*  
 > **Owner**: Fikri Rusdinerza
 
-![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue)
-![Node.js](https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-green)
-![Database](https://img.shields.io/badge/Database-MongoDB%20%2B%20Mongoose-brightgreen)
-![Styling](https://img.shields.io/badge/Styling-Neumorphic%20Soft%20Gray%20%2B%20Tailwind-informational)
-![License](https://img.shields.io/badge/License-MIT-orange)
+<p flex gap-2>
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Database-MongoDB%20%7C%20Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+</p>
 
 Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Fullstack React + Express + MongoDB** dengan antarmuka **Neumorphic Soft Matte Gray & Dual Sidebar Layout**, pendeteksian notifikasi **QRIS Bank Indonesia (Alfamart Style)**, serta **Cetak Struk Thermal Otomatis (Auto-Print)**.
 
@@ -59,8 +61,8 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/USERNAME/toko-kelontong-dashboard.git
-cd toko-kelontong-dashboard
+git clone https://github.com/fixxs/Dasboard-toko-kelontong.git
+cd Dasboard-toko-kelontong
 ```
 
 ### 2. Setup Backend (Node.js + Express + MongoDB)
