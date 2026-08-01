@@ -1,4 +1,4 @@
-# 🛒 Toko Kelontong Berkah — POS & ERP Store Management System
+#  Toko Kelontong Berkah — POS & ERP Store Management System
 
 > **Developed by jb with fixs** — *Speed • Security • Trust*  
 > **Owner**: Fikri Rusdinerza
@@ -15,7 +15,7 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
 
 ---
 
-## 🌟 Fitur Utama System
+##  Fitur Utama System
 
 ### 1. 🛒 Mode Kasir POS (Point of Sale)
 - **Tampilan Kasir Cepat**: Filter kategori produk, pencarian barang cepat, dan pengelolaan Keranjang Belanja (*Cart Management*).
@@ -26,20 +26,20 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
   - **Kasbon / Utang**: Input nama pelanggan kasbon.
 - **Cetak Struk Thermal Otomatis (Auto-Print)**: Nota kasir format 58mm / 80mm yang langsung mencetak saat transaksi lunas.
 
-### 2. 👥 Multi-User Role & Hak Akses (RBAC)
+### 2.  Multi-User Role & Hak Akses (RBAC)
 - **Role Admin / Pemilik Toko (`admin`)**:
   - Access ke Dashboard Utama, Laporan Laba Rugi P&L, Export Excel/PDF, Audit Stok Opname, Hapus Data, dan Pengaturan User.
 - **Role Kasir / Karyawan (`kasir`)**:
   - Access khusus operasional: Mode POS Kasir, Katalog Barang (Lihat & Restok), dan Kas Harian. Dibatasi dari melihat laba bersih P&L atau menghapus transaksi.
 
-### 3. 📊 Dashboard Analytics & HPP Historical Snapshot
+### 3.  Dashboard Analytics & HPP Historical Snapshot
 - **Harga Snapshot**: Menyimpan `harga_saat_transaksi` dan `harga_modal_saat_transaksi` secara otomatis saat transaksi terjadi agar perhitungan HPP dan Laba Rugi 100% akurat secara historis.
 - **Laporan Laba Rugi (P&L Statement)**: Rumus `Omset - HPP - Biaya Operasional = Laba Bersih`.
 - **Low Stock Monitoring & Stok Opname**: Audit stok fisik vs sistem dengan pencatatan selisih barang.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React (Vite), Tailwind CSS, Recharts, Lucide Icons, Axios.
 - **Backend**: Node.js, Express.js (Modular MVC), JWT Authentication, Bcryptjs.
@@ -48,7 +48,7 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
 
 ---
 
-## 🔑 Kredensial Demo Account
+##  Kredensial Demo Account
 
 | Role | Nama | Username | Password | Hak Akses |
 |---|---|---|---|---|
@@ -57,7 +57,7 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
 
 ---
 
-## 🚀 Langkah Instalasi & Cara Menjalankan Project
+##  Langkah Instalasi & Cara Menjalankan Project
 
 ### 1. Clone Repository
 ```bash
@@ -93,7 +93,3 @@ npm run dev
 Akses aplikasi di browser pada **http://localhost:5173**.
 
 ---
-
-## 📜 Lisensi
-Dikembangkan oleh **jb with fixs** — *Speed • Security • Trust*  
-Hak Cipta © 2026 **Fikri Rusdinerza**. Released under the [MIT License](LICENSE).
