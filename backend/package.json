@@ -1,0 +1,22 @@
+{
+  "name": "toko-kelontong-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Dashboard Toko Kelontong",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "pdfmake": "^0.2.10"
+  }
+}
