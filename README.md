@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Database-MongoDB%20%7C%20Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
 </p>
 
 Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Fullstack React + Express + MongoDB** dengan antarmuka **Neumorphic Soft Matte Gray & Dual Sidebar Layout**, pendeteksian notifikasi **QRIS Bank Indonesia (Alfamart Style)**, serta **Cetak Struk Thermal Otomatis (Auto-Print)**.
@@ -17,7 +16,7 @@ Aplikasi Web **Dashboard Toko Kelontong & Mode Kasir POS Eceran** berbasis **Ful
 
 ##  Fitur Utama System
 
-### 1. 🛒 Mode Kasir POS (Point of Sale)
+### 1.  Mode Kasir POS (Point of Sale)
 - **Tampilan Kasir Cepat**: Filter kategori produk, pencarian barang cepat, dan pengelolaan Keranjang Belanja (*Cart Management*).
 - **Multi-Metode Pembayaran**:
   - **Tunai**: Preset tombol uang cepat (10k, 20k, 50k, 100k, Uang Pas) dan kalkulator kembalian otomatis.
